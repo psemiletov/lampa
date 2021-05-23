@@ -45,6 +45,9 @@ greeting()
   echo '8 - brighter\n'
   echo '2 - darker\n'
 
+  echo '4 - decrease temperature\n'
+  echo '6 - increase temperature\n'
+
 }
 
 
