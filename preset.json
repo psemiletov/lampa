@@ -1,0 +1,10 @@
+{
+  "Lights": [
+    {
+      "Temperature": 344,
+      "Brightness": 100,
+      "On": 1
+    }
+  ],
+  "NumberOfLights": 1
+}

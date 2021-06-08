@@ -50,6 +50,11 @@ greeting()
 
 }
 
+if [ ! -z "$1" ];
+  then
+     curl -s -X PUT http://$ADDR:$PORT/elgato/lights -H "Content-Type: application/json"  -d @"$1"
+fi
+
 
 greeting
 
